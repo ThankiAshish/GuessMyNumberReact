@@ -95,7 +95,7 @@ const Game = () => {
             <button
               type="button"
               className="btn"
-              onClick={() => window.location.reload()}>
+              onClick={() => navigate("/")}>
               Play Again
             </button>
           ) : null}
@@ -125,7 +125,7 @@ const Game = () => {
             <button
               className="btn"
               type="button"
-              onClick={() => window.location.reload()}>
+              onClick={() => navigate("/")}>
               Play Again?
             </button>
           </div>
